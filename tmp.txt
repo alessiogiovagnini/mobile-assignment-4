@@ -2,9 +2,9 @@
 
 5-fold cross validation:
 
-    with example data:
-        Average validation score of XGBoost: 68.75 ± 0.78 %
-        Average validation score of DummyClassifier: 47.58 ± 0.31 %
+                                                                                            with example data:
+                                                                                                Average validation score of XGBoost: 68.75 ± 0.78 %
+                                                                                        Average validation score of DummyClassifier: 47.58 ± 0.31 %
 
     with assignment data:
         Average validation score of XGBoost: 63.40 ± 0.67 %
@@ -13,9 +13,9 @@
 
 leave one subject out cross validation:
 
-    with example data:
-        Average validation score of XGBoost: 45.27 ± 23.23 %
-        Average validation score of DummyClassifier: 49.47 ± 1.02 %
+                                                                                            with example data:
+                                                                                                Average validation score of XGBoost: 45.27 ± 23.23 %
+                                                                                                Average validation score of DummyClassifier: 49.47 ± 1.02 %
 
     with assignment data:
         Average validation score of XGBoost: 41.92 ± 16.32 %
@@ -25,9 +25,17 @@ leave one subject out cross validation:
 
 leave one day out:
 
-    with example data:
-        Average validation score of XGBoost: 68.22 ± 1.54 %
-    Average validation score of DummyClassifier: 48.90 ± 1.02 %
+                                                                                                with example data:
+                                                                                                    Average validation score of XGBoost: 68.22 ± 1.54 %
+                                                                                                    Average validation score of DummyClassifier: 48.90 ± 1.02 %
+
     with assignment data:
-        Average validation score of XGBoost: 63.41 ± 0.90 %
-        Average validation score of DummyClassifier: 49.36 ± 1.93 %
+        Average validation score of XGBoost: 50.47 ± 4.27 %
+        Average validation score of DummyClassifier: 50.18 ± 0.35 %
+
+
+
+T-test results:
+    t-value 5-fold = 40.57283594232349
+    t-value leave 1 sub out = -1.7435958417795776
+    t-value leave 1 day out = 0.19253059119483323
