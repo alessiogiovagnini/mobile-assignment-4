@@ -39,3 +39,55 @@ T-test results:
     t-value 5-fold = 40.57283594232349
     t-value leave 1 sub out = -1.7435958417795776
     t-value leave 1 day out = 0.19253059119483323
+
+p-values:
+    p-value 5-fold = 1.4988393336144315e-10   - significant: True
+    p-value leave 1 sub out = 0.0940279302819827   - significant: False
+    p-value leave 1 day out = 0.850091504399346   - significant: False
+
+
+
+
+ex 3 results
+
+5 fold combinations with boost
+t value of boost - svm = 43.833555419280735
+p value of boost - svm = 8.09595318103758e-11
+t value of boost - random forest = -0.5466924557003323
+p value of boost - random forest = 0.5995023943595965
+t value of boost - gaussian = 15.177491270396224
+p value of boost - gaussian = 3.517444741447363e-07
+t value of dummy - svm = 3.7695373151559655
+p value of dummy - svm = 0.00546925815958894
+t value of dummy - random forest = -34.27368309830202
+p value of dummy - random forest = 5.740102062088713e-10
+t value of dummy - faussian = -8.780008867366337
+p value of dummy - faussian = 2.222068642084032e-05
+
+leave one subject out
+t value of boost - svm = -0.4599498741496888
+p value of boost - svm = 0.6496919557867546
+t value of boost - random forest = 0.01225680427006018
+p value of boost - random forest = 0.9903220496246994
+t value of boost - gaussian = 1.7496177114589408
+p value of boost - gaussian = 0.0929623842174174
+t value of dummy - svm = 0.27740456875099867
+p value of dummy - svm = 0.7838449727663885
+t value of dummy - random forest = 1.780054153291243
+p value of dummy - random forest = 0.08773318559735908
+t value of dummy - gaussian = 3.4262921676251525
+p value of dummy - gaussian = 0.0022099296258320487
+
+leave one day out
+t value of boost - svm = 1.1042547591865683
+p value of boost - svm = 0.28810079706375946
+t value of boost - random forest = -0.46047007500716136
+p value of boost - random forest = 0.6522498348356769
+t value of boost - gaussian = 1.30492398690598
+p value of boost - gaussian = 0.21296090067034848
+t value of dummy - svm = 1.0902768246637788
+p value of dummy - svm = 0.2940016330670107
+t value of dummy - random forest = -1.0026849350401958
+p value of dummy - random forest = 0.3330293283671898
+t value of dummy - gaussian = 1.3064675892666933
+p value of dummy - gaussian = 0.21244988359327857
